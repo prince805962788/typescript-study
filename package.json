@@ -1,0 +1,25 @@
+{
+  "name": "typescript-study",
+  "private": true,
+  "version": "0.0.0",
+  "author": "",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "@antfu/eslint-config-ts": "^0.12.1",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "typescript": "^4.5.2",
+    "utility-types": "^3.10.0"
+  },
+  "eslintConfig": {
+    "extends": "@antfu/eslint-config-ts",
+    "rules": {
+      "import/first": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "off"
+    }
+  }
+}
